@@ -328,12 +328,7 @@ class SocialLoginService {
             provider: socialData.provider,
             fcm_token: socialData.fcm_token,
             email_verified_at: socialData.emailVerified ? new Date() : null,
-            is_active: 1,
-            gender: 3,
             language: socialData.language,
-            password: hashedPassword,
-            is_admin_approved: 1,
-            role_id: 2,
             created_at: new Date(),
             updated_at: new Date()
         };
