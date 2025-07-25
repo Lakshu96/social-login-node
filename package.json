@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@faker-js/faker": "^9.9.0",
+    "axios": "^1.11.0",
+    "crypto": "^1.0.1",
+    "fs": "^0.0.1-security",
+    "google-auth-library": "^10.1.0",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "engines": {
+    "node": ">=20.9.0",
+    "npm": ">=9.0.0"
+  }
+}
